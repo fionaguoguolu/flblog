@@ -9,3 +9,7 @@ test:
 .PHONY: clean
 clean:
 	rm -rf build/ .cache/ dist/ flblog.egg-info/
+
+.PHONY: lint
+lint:
+	flake8 FLBLOG/ tests/

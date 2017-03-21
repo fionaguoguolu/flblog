@@ -9,7 +9,7 @@ config = {
     'url': 'https://github.com/fionaguoguolu/flblog',
     'author_email': 'dev@fionalu.me',
     'version': '0.1',
-    'install_requires': ['pytest'],
+    'install_requires': ['pytest', 'flake8'],
     'packages': ['FLBLOG'],
     'scripts': [],
     'name': 'flblog'
