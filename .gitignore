@@ -1,0 +1,9 @@
+build/
+.cache/*
+dist/*
+env/
+flblog.egg-info/*
+*.pyc
+
+#mac
+.DS_Store
