@@ -7,3 +7,6 @@ flblog.egg-info/*
 
 #mac
 .DS_Store
+
+#vim
+*.swp

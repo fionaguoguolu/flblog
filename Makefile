@@ -2,6 +2,13 @@
 bootstrap:
 	python setup.py install
 
+.PHONY: serve
+serve:
+	# python FLBLOG/webserver.py
+	# pip install flask
+	# python FLBLOG/webserver2.py flaskapp:app
+	python FLBLOG/webserver2.py wsgiapp:app
+
 .PHONY: test
 test:
 	pytest tests/*
