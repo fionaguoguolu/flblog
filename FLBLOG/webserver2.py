@@ -5,6 +5,7 @@ import logging
 
 logging.basicConfig(filename='{}.log'.format('webserver2'), level=logging.DEBUG)
 logger = logging.getLogger(__name__)
+# Also log to console
 logger.addHandler(logging.StreamHandler())
 
 
